@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>لوحة التحكم</title>
+  </head>
+  <body style="background-color:rgb(93, 47, 144)" dir="rtl">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand h3 text-white" href="#">Now You Can Do IT</a>
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#">سكان</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">الطائرات</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">اجار عربات</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">مطارات</a></li>
+      </ul>
+    </nav>
+    <div class="container-fluid" >
+       
+      <div class="row">
+         
+        <div class="col-md-6 col-lg-6 mt-5">
+                 <img src="IMG.png" style="width:700px; height: 500px;">
+        </div>
+
+        <div class="col-md-5 col-lg-6">
+          <div class="row">
+            <div class="text-white" style="font-size:100px; font-weight:600;">أحجز وسافر</div>
+          </div>
+          <div class="row">
+            <div class="card mt-2 py-5" style="border-color: white; width:650px; border-radius: 0; background-color:rgb(120, 82, 163);" >
+              <div class="card-body">
+                <form>
+                  <div class="form-group">
+                    <label style="font-weight: 100px" id="destination" class="text-white">الوجه</label>
+                    <input type="text" class="form-control mt-2" placeholder="الوجه">
+                  </div>
+                  <div class="row inline mt-2">
+                      <div class="col">
+                        <div class="form-group">
+                          <label for="checkin" class="text-white">تاريخ السفر</label>
+                          <input type="date" class="form-control mt-2">
+                        </div>
+                      </div>
+                      <div class="col ">
+                        <label for="checkout " class="text-white">تاريخ العوده</label>
+                        <input type="date" class="form-control mt-2 text-white">
+                      </div>
+                  </div>
+
+                  <div class="row inline mt-2">
+                    <div class="col">
+                      <div class="form-group">
+                        <label for="Adults" class="text-white">البالغين</label>
+                        <select class="form-control mt-2 text-white" style="background-color:transparent">
+                          <option >2 البالغين</option>
+                          <option >1 بالغ</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col ">
+                      <label for="children " class="text-white">الطفال</label>
+                      <select class="form-control mt-2 text-white" style="background-color:transparent">
+                        <option >2 الطفال</option>
+                        <option >1 طفل</option>
+                      </select>
+                    </div>
+                    </div>
+                </div>
+                  <div class="row justify-content-center">
+                    <button class="btn btn-warning mb-2 text-white" style="width:600px; height:45px; border-radius: 0%;"> <i class="fa fa-search"></i>  ابداء البحث</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
